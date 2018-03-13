@@ -28,11 +28,11 @@ npm install --save extra-watch-webpack-plugin
 
 ```js
 // webpack.config.js
-import ExtraWathWebpackPlugin from 'extra-watch-webpack-plugin';
+import ExtraWatchWebpackPlugin from 'extra-watch-webpack-plugin';
 ......
 {
   plugins: [
-    new ExtraWathWebpackPlugin({
+    new ExtraWatchWebpackPlugin({
       fies: [ 'path/to/file' ],
       dirs: [ 'path/to/dir' ]
     }),
